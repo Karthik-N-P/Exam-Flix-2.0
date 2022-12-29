@@ -1,0 +1,194 @@
+
+/* media queries for mobiles */
+@media ( max-width: 480px ) {
+    body{
+        height: 250vh;
+    }
+    
+    .motivation{
+        display: none;
+    }
+ 
+    .suportus{
+        display: none;
+    }
+
+
+    .header-div{
+        left: 10%;
+        width: 90%;
+    }
+    .Hello-Buddy{
+    width: 85%;
+    height: 200px;
+    margin: 2rem;
+    background: #e5e5e8;
+    padding: .5rem;
+    border-radius: 14px;
+    
+    }
+    .Hello-Buddy h1{
+        margin-top: 5px;
+        font-size: 1.5rem;
+    }
+    .Hello-Buddy p{
+        font-size: 10px;
+        line-height: 20px;
+    }
+    .Hello-Buddy img{
+       position: relative;
+       width:170px;
+         height:190px;
+       bottom: 0px;
+        left: -50px;
+       
+    }
+    
+    .eye {
+        position: relative;
+        left: 110px;
+        bottom: 35px;
+        margin-right: 2rem;
+        border-radius: 50%;
+        height: 22px;
+        width: 100px;
+        background:transparent;
+    }
+      .eye:after { /*pupil*/
+        position: absolute;
+        left: 4px;
+        bottom: 10px;
+      }
+
+
+      /* nav */
+      .logo .E{
+        color: #fff;
+          font-size: 3rem;
+      }
+      .logo .exmflix{
+          display: none;
+          color: #fff;
+          font-size: 2rem;
+          font-weight: 400;
+      }
+      nav{
+          position: fixed;
+          width: 4rem;
+          height: 100vh;
+          background: #000000;
+          display: flex;
+          flex-direction: column;
+          transition: 0.1s all ease-in-out;
+          z-index: 99;
+      
+      }
+      
+    
+      li:last-child{
+          margin-top: auto;
+          margin-bottom: 60px;
+      }
+   
+      
+      span{
+          display: none;
+          margin-left: 1rem;
+          font-size: 1.2rem;
+      }
+      
+  
+      i{
+          font-size: 1.2rem;
+          color: #fff;
+          padding: 1rem; 
+      }
+
+
+
+      .video-selection , .notes-selection , .lab-selection {
+        position: absolute;
+        top:280px;
+        left:48%;
+        width: 70px;
+        height: 180px;
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+        align-items: center;
+    
+    }
+    .sem-show{
+        width: 260px;
+        height: 160px;
+        display: flex;
+        flex-direction: column;
+        background: #e5e5e8;
+      
+        
+        }
+   
+        button{
+            width: 120px;
+        height: 40px;
+        
+        color: #fff;
+        background: #000000;
+        border-radius: 8px;
+        
+        }
+        .arrow{
+            position: absolute;
+            top:120px;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            border: 2px solid #000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .left{
+            right:125px;
+        }
+        .right{
+            left: 125px;
+        }
+        .videos , .notes , .labs{
+            position: absolute;
+            top:500px;
+            left:80px;
+            height: 60vh;
+        }
+
+        .video-div{
+            width: 260px;
+            height: 160px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding:.5rem;
+        background: #e5e5e8;
+        border-radius: 14px;
+        
+        }
+        
+        .timetable{
+            position: absolute;
+            top:205vh;
+             left:80px;
+             
+             width: 70%;
+             height: 350px;
+             
+             background: #F5F5F7;
+             border-radius: 14px;
+             /* border:2px solid #000; */
+        }
+
+       
+        
+      
+}
+    

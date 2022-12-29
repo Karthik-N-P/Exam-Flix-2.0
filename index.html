@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mq.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://fonts.googleapis.com/css?family=Baloo Bhai' rel='stylesheet'>
+</head>
+<body class="move-area">
+    <nav class="navbar">
+        <div class="logo">
+        <h1 class="E">E.</h1>
+        <h1 class="exmflix">exmFLIX</h1>
+        </div>
+        <ul>
+            <li>
+                <a onclick="videos()" class="nav-link">
+                <i class="fa-solid fa-house"></i>
+                <span>Home</span>
+                </a>
+            </li>
+
+            <li>
+            <a onclick="notes()" class="nav-link">
+                
+                <i class="fa-solid fa-book"></i>
+                <span >Notes</span>
+            </a>
+            </li>
+
+
+            <li>
+                <a onclick="lb()" class="nav-link">
+                   <i class="fa-solid fa-computer"></i>
+                   <span>Lab</span>
+                </a>
+            </li>
+            <li>
+                <a onclick="skill()" class="nav-link">
+                   <i class="fa-solid fa-code"></i>
+                   <span>Skills</span>
+                </a>
+            </li>
+
+            <li>
+                <a onclick="animat()" class="nav-link">
+                     <i class="fa-solid fa-star"></i>
+                </a>
+                
+            </li>
+        </ul>
+    </nav>
+
+
+    <!-- video -->
+
+   <section class="video">
+    <div class="header-div">
+    <div class="Hello-Buddy">
+      <div>
+        <h1>Hello-Buddy!</h1>
+        <p>One Stop Destination For All Your S5 Exam Resources</p>
+       </div> 
+       <div class='eye'></div>
+       <div class='eye'></div>
+        <img id="josh" src="images/josh.svg">
+    </div>
+
+   
+    
+     
+    <div class="motivation">
+        <h1 id="motivation-title">Today's Motivation</h1>
+        <h1 id="quote"> </h1>
+        <p id="author"></p>
+
+    </div>
+    </div>
+
+
+   <div class="video-selection">
+      <div class="sem-show">
+          <div class="class-icon">
+                <div class="icon-box">
+                  <img src="images/Classroom.svg" >
+                </div>
+                <div class="sem-text">
+                   <h1>S5</h1>
+                    <p>Video Resources</p>
+                </div>
+            </div>
+       
+           <button><a href="#playlist" style="text-decoration: none; color: white;">Continue</a></button>
+       </div>
+     <div class="arrow left"><i class="fa-solid fa-arrow-left"></i></div>
+     <div class="arrow right"><i class="fa-solid fa-arrow-right"></i></div>
+
+    </div>
+
+    <div class="videos" id="playlist">
+        <h1>Video</h1>
+
+        <div class="playlist">
+
+           <div class="video-div 1">
+                <div class="class-icon">
+                    <div class="icon-box">
+                         <img src="images/Classroom.svg" >
+                    </div>
+                    <div class="sem-text">
+                         <h1>FLAT</h1>
+                         <p>Caution:"Video mathram kandal 3g akum "</p>
+                    </div>
+                </div>
+               
+                <button><a href="https://youtube.com/playlist?list=PLI74-7rtCb9CCBIF4aJ0IDOHOLiIsw3fz" style="text-decoration: none; color: white;">View Notes</a></button>
+            </div>
+
+          <div class="video-div 2">
+               <div class="class-icon">
+                  <div class="icon-box">
+                    <img src="images/Classroom.svg" >
+                  </div>
+                  <div class="sem-text">
+                     <h1>CN</h1>
+                      <p>Video kandal pass akum akuayirikkum</p>
+                  </div>
+              </div>
+             
+              <button><a href="https://youtube.com/playlist?list=PLI74-7rtCb9BRUw6JzCm_wwLdQJc3jSwO" style="text-decoration: none; color: white;">View Notes</a></button>
+            </div>
+
+          <div class="video-div 3">
+                    <div class="class-icon">
+                         <div class="icon-box">
+                              <img src="images/Classroom.svg" >
+                          </div>
+                      <div class="sem-text">
+                          <h1>SS</h1>
+                           <p>GOOD LUCK .....</p>
+                         </div>
+                    </div>
+                   
+                    <button><a href=" https://youtube.com/playlist?list=PLZsB-Etza3jvNqeN4aWQsr3TnqKyENGVM" style="text-decoration: none; color: white;">View Notes</a></button>
+            </div>
+
+           <div class="video-div 4">
+                <div class="class-icon">
+                     <div class="icon-box">
+                         <img src="images/Classroom.svg" >
+                     </div>
+                <div class="sem-text">
+                     <h1>MAM</h1>
+                     <p>GOOD LUCK .....</p>
+                </div>
+           </div>
+  
+           <button><a href="https://youtube.com/playlist?list=PLIbXsCgitKL-_-VjmxkDMylk6uY11ZTn7" style="text-decoration: none; color: white;">View Notes</a></button>
+            </div>
+
+
+        <div class="video-div 5">
+        <div class="class-icon">
+           <div class="icon-box"><img src="images/Classroom.svg" > </div>
+           <div class="sem-text">
+              <h1>DISASTER</h1>
+               <p>Ithu pass ayakeneda.....</p>
+           </div>
+       </div>
+  
+       <button><a href="https://youtube.com/playlist?list=PLvhpYlsgi9lA62XcNQuHoi1urRhRlyIJg" style="text-decoration: none; color: white;">View Notes</a></button>
+  </div>
+
+
+    </div>
+
+</div>
+
+
+
+<!---  notes -->
+
+
+
+<div class="notes-selection">
+    <div class="sem-show">
+        <div class="class-icon">
+              <div class="icon-box">
+                <img src="images/Classroom.svg" >
+              </div>
+              <div class="sem-text">
+                 <h1>S5</h1>
+                  <p>Notes and PPT's</p>
+              </div>
+          </div>
+     
+          <button><a href="#playlist" style="text-decoration: none; color: white;">Continue</a></button>
+     </div>
+   <div class="arrow left"><i class="fa-solid fa-arrow-left"></i></div>
+   <div class="arrow right"><i class="fa-solid fa-arrow-right"></i></div>
+
+  </div>
+
+<div class="notes" >
+    <h1>Notes</h1>
+
+    <div class="playlist" >
+
+       <div class="video-div 1">
+            <div class="class-icon">
+                <div class="icon-box">
+                     <img src="images/Classroom.svg" >
+                </div>
+                <div class="sem-text">
+                     <h1>FLAT</h1>
+                     <p>All Notes From Module 1 to 5</p>
+                </div>
+            </div>
+            <button><a href="https://drive.google.com/drive/folders/1u0HDyCE6kvojvSFufwv5E93b0UwgVGXs" style="text-decoration: none; color: white;">View Notes</a></button>
+        </div>
+
+      <div class="video-div 2">
+           <div class="class-icon">
+              <div class="icon-box">
+                <img src="images/Classroom.svg" >
+              </div>
+              <div class="sem-text">
+                 <h1>CN</h1>
+                 <p>All Notes From Module 1 to 5</p>
+              </div>
+          </div>
+     
+          <button><a href="https://drive.google.com/drive/folders/13_NYYl3WK22WXSTUnR55RPst0mt8M2E2" style="text-decoration: none; color: white;">View Notes</a></button>
+        </div>
+
+      <div class="video-div 3">
+                <div class="class-icon">
+                     <div class="icon-box">
+                          <img src="images/Classroom.svg" >
+                      </div>
+                  <div class="sem-text">
+                      <h1>SS</h1>
+                      <p>All Notes From Module 1 to 5</p>
+                     </div>
+                </div>
+  
+                <button><a href="https://drive.google.com/drive/folders/13VrCHAZnR-o_UuomNq-W6bOw_SicYLyx" style="text-decoration: none; color: white;">View Notes</a></button>
+        </div>
+
+       <div class="video-div 4">
+            <div class="class-icon">
+                 <div class="icon-box">
+                     <img src="images/Classroom.svg" >
+                 </div>
+            <div class="sem-text">
+                 <h1>MAM</h1>
+                 <p>All Notes From Module 1 to 5</p>
+            </div>
+       </div>
+
+       <button><a href="https://drive.google.com/drive/folders/13ViYwDN52G6Z28IWF_EDHffgF23YfHzV" style="text-decoration: none; color: white;">View Notes</a></button>
+        </div>
+
+
+    <div class="video-div 5">
+    <div class="class-icon">
+       <div class="icon-box"><img src="images/Classroom.svg" > </div>
+       <div class="sem-text">
+          <h1>DISASTER</h1>
+           <p>All Notes From Module 1 to 5</p>
+       </div>
+   </div>
+
+   <button><a href="https://drive.google.com/drive/folders/13Ve9T3JAiCnzR5VDz6X30FgYaXR1aRog" style="text-decoration: none; color: white;">View Notes</a></button>
+</div>
+
+
+</div>
+
+</div>
+
+
+
+
+<!-- labs -->
+<div class="lab-selection">
+    <div class="sem-show">
+        <div class="class-icon">
+              <div class="icon-box">
+                <img src="images/Classroom.svg" >
+              </div>
+              <div class="sem-text">
+                 <h1>S5</h1>
+                  <p>Programs and Algorithm</p>
+              </div>
+          </div>
+     
+          <button><a href="#playlist" style="text-decoration: none; color: white;">Continue</a></button>
+     </div>
+   <div class="arrow left"><i class="fa-solid fa-arrow-left"></i></div>
+   <div class="arrow right"><i class="fa-solid fa-arrow-right"></i></div>
+
+</div>
+
+<div class="labs">
+    <h1>Lab</h1>
+
+    <div class="playlist" id="playlist">
+
+       <div class="video-div 1">
+            <div class="class-icon">
+                <div class="icon-box">
+                     <img src="images/Classroom.svg" >
+                </div>
+                <div class="sem-text">
+                     <h1>DBMS</h1>
+                     <p>Queries of all Experiments given in record</p>
+                </div>
+            </div>
+            <button><a href="https://drive.google.com/drive/folders/13W5g8U-s69dYCJuYjm2hYZhBB5Fi8MBy" style="text-decoration: none; color: white;">View Notes</a></button>
+        </div>
+
+      <div class="video-div 2">
+           <div class="class-icon">
+              <div class="icon-box">
+                <img src="images/Classroom.svg" >
+              </div>
+              <div class="sem-text">
+                 <h1>MAM</h1>
+                 <p>Algorithms and code of all programs</p>
+              </div>
+          </div>
+     
+          <button><a href="https://drive.google.com/drive/folders/13W5g8U-s69dYCJuYjm2hYZhBB5Fi8MBy" style="text-decoration: none; color: white;">View Notes</a></button>
+        </div>
+
+</div>
+
+</div>
+
+
+
+
+
+
+<div class="timetable">
+    <h1>Timetable</h1>
+    <div class="timetable-main">
+        <h2>Semester-Exam</h2>
+        <p>16/01 - FLAT </p><hr>
+        <p>  19/01 - CN </p><hr>
+        <p>   23/01 - SS </p><hr>
+        <p>  27/01 - MPMC</p><hr>
+        <p>  30/01 - M0SS </p><hr>
+        <p>  01/02 - DISASTER </p><hr>
+         
+    </div>
+
+    
+
+
+</div>
+
+<div class="suportus">
+    <div>
+    <h1>Suport Us</h1>
+    <p>Contribute lecture notes, ppts,
+        pdfs videos.</p>
+    <button>Contribute</button>
+</div>
+    <img src="images/contribute.svg" alt="">
+
+</div>
+
+   </section>
+    
+    
+    
+    
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+    
+</body>
+</html>
